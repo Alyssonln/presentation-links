@@ -1,1 +1,1 @@
-"Website usado como portfólio!"
+"Website usado como portfólio"
