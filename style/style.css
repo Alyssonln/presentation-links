@@ -19,30 +19,19 @@
 .menu {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   gap: 2rem;
-}
-
-.menu li {
-  text-align: center;
+  padding-right: 30px;
 }
 
 .menu a {
   text-decoration: none;
-  color: white;
-  font-size: 1.3rem;
-  font-weight: bold;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
   padding: 10px;
 }
 
-.menu a:hover {
-  color: #18e4ff;
-  border-radius: 5%;
-  padding: 10px;
-  background-color: rgba(255, 255, 255, 0.200);
-  transition: 0.3s;
+.menu img {
+  width: 40px;
+  height: auto;
 }
 
 
@@ -134,13 +123,42 @@
 
 /* ESTILO DA 2ª SECTION */
 .sobre {
-  background-color: #2196f3;
+  background-image: url(../img/backgroundPg02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
+#sobre {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
 
-/* ESTILO DA 3ª SECTION */
-.resumo {
-  background-color: #f44336;
+.conteudoPg02 {
+  border-radius: 20px;
+  width: 500px;
+  height: 450px;
+  background-color: rgba(89, 89, 89, 0.50);
+  padding: 10px;
+}
+
+.paragrafoPg02 {
+  font-size: 0.4em;
+  text-align: left;
+  letter-spacing: 1px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.imgProgramador img {
+  width: 300px;
+  height: auto;
 }
 
 
