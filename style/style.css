@@ -123,44 +123,8 @@
 }
 
 .links img {
-  width: 25px;
+  width: 35px;
   margin: 40px auto;
-}
-
-
-/* ESTILO DA 2ª SECTION */
-.skills {
-  background-image: url(../img/backgroundPg02.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-#skills {
-  height: 100vh;
-  display: flex;
-  justify-content: right;
-  font-family: Arial, sans-serif;
-  font-size: 2rem;
-  color: white;
-  text-align: unset;
-  padding: 1rem;
-}
-
-.paragrafo {
-  width: 220px;
-  height: 100px;
-  margin-right: 100px;
-  margin-bottom: 160px;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.paragrafo p {
-  font-size: 0.50em;
-}
-
-.paragrafo span {
-  text-align: right;
 }
 
 
