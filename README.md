@@ -1,1 +1,1 @@
-"Website usado demonstração"
+"Website, home page demonstração."
